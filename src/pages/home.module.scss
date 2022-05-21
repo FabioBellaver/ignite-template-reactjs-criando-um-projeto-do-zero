@@ -1,1 +1,49 @@
-// TODO
+.content {
+
+    h1 {
+        color: var(--heading);
+        font-size: 1.75rem;
+        font-weight: bold;
+        transition: color 0.2s;
+        display: block;
+        margin-top: 2rem;
+
+        &:hover {
+            color: var(--highlight);
+        }
+    }
+
+    p {
+        color: var(--body);
+        font-size: 1.12rem;
+        margin-top: 1rem;
+    }
+
+    .info {
+        margin-top: 1rem;
+        color: var(--info);
+        font-size: 0.87rem;
+
+        span {
+            margin-left: 1rem;
+        }
+
+        & svg {
+            margin-right: 0.5rem;
+        }
+    }
+
+}
+
+.btn {
+    background: transparent;
+    border: none;
+    color: var(--highlight);
+    margin-top: 2rem;
+    font-weight: bold;
+    transition: filter 0.2s;
+
+    &:hover {
+        filter: brightness(0.9)
+    }
+}
